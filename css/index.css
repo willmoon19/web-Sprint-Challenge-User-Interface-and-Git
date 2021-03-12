@@ -61,16 +61,19 @@ header {
     margin: 20px auto;
     width: 800px;
     align-items: flex-end;
+    flex-wrap: wrap;
 }
 
 .logo {
     width: 20%;
+    margin-bottom: 40px;
 }
 
 .top_nav {
     width: 80%;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 40px;
 }
 
 .top_nav a {
@@ -78,6 +81,10 @@ header {
     text-decoration: none;
     font-weight: bold;
     font-size: .9rem;
+}
+
+header .time-lapse {
+    width: 100%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -93,10 +100,6 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-}
-
-.container img {
-    margin: 20px 0 20px;
 }
 
 .top-content {
