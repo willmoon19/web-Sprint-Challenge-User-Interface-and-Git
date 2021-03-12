@@ -212,4 +212,51 @@ footer nav a {
 /* About Page Style */
 
 
+.overview {
+    margin: 0 20px 20px;
+    font-weight: bold;
+}
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px dashed black;
+    justify-content: space-evenly;
+}
+
+.gallery div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 45%;
+    height: 60vh;
+    padding: 30px 0;
+    border-bottom: 1px dashed black;
+}
+
+.learn_more {
+    text-decoration: none;
+    color:black;
+    padding: 3%;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 35%;
+    text-align: center;
+}
+
+.gallery h2 {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.gallery p {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.bottom_message {
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+
+}
