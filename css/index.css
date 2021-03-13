@@ -56,6 +56,37 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    display: flex;
+    margin: 20px auto;
+    width: 800px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 20%;
+    margin-bottom: 40px;
+}
+
+.top_nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.top_nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+header .time-lapse {
+    width: 100%;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -112,6 +143,37 @@ p {
     justify-content: center;
 }
 
+#box1 {
+     background-color: teal
+} 
+#box2 {
+     background-color: gold
+}
+#box3 {
+     background-color: cadetblue
+} 
+#box4 {
+     background-color: coral
+} 
+#box5 {
+     background-color: crimson
+}
+#box6 {
+     background-color: forestgreen
+} 
+#box7 {
+     background-color: darkorchid
+} 
+#box8 {
+     background-color: hotpink
+} 
+#box9 {
+     background-color: indigo
+}
+#box10 {
+    background-color: dodgerblue
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +205,58 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+/* About Page Style */
+
+
+.overview {
+    padding: 0 20px 20px;
+    font-weight: bold;
+    border-bottom: 1px dashed black;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery div {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    width: 45%;
+    border-bottom: 1px dashed black;
+    padding: 30px 0;
+}
+
+.learn_more {
+    text-decoration: none;
+    color:black;
+    padding: 2.5% 3%;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 35%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.about-page h2 {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.about-page p {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.last_message {
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+
 }
