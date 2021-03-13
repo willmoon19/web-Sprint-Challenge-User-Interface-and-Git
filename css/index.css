@@ -213,48 +213,62 @@ footer nav a {
 
 
 .overview {
-    margin: 0 20px 20px;
+    padding: 0 20px 20px;
     font-weight: bold;
-}
-
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    border-top: 1px dashed black;
-    justify-content: space-evenly;
-}
-
-.gallery div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 45%;
-    height: 60vh;
-    padding: 30px 0;
     border-bottom: 1px dashed black;
 }
+
+.gallery_top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery_top div {
+    display: flex;
+    flex-wrap:wrap;
+    width: 45%;
+    border-bottom: 1px dashed black;
+    padding: 30px 0;
+}
+
+
+.gallery_bottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.gallery_bottom div {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
 
 .learn_more {
     text-decoration: none;
     color:black;
-    padding: 3%;
+    padding: 2.5% 3%;
     border: 3px solid black;
     border-radius: 10px;
     width: 35%;
     text-align: center;
+    font-weight: bold;
 }
 
-.gallery h2 {
+.about-page h2 {
     padding-top: 10px;
     font-weight: bold;
 }
 
-.gallery p {
+.about-page p {
     padding-bottom: 10px;
     font-weight: bold;
 }
 
-.bottom_message {
+.last_message {
     margin: 20px;
     padding: 10px;
     font-weight: bold;
